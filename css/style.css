@@ -2895,6 +2895,10 @@ body.ie ._ibg img {
   .form-body {
     padding: 20px 20px;
   }
+
+  .menu-list__name {
+    font-size: 14px;
+  }
 }
 
 @media (min-height: 800px) {

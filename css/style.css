@@ -2019,7 +2019,6 @@ body.ie ._ibg img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  float: 0 1 33.333;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -2050,6 +2049,7 @@ body.ie ._ibg img {
   text-transform: uppercase;
   color: #333;
   margin: 0px 13px 0px 0px;
+  font-size: 14px;
 }
 
 .menu-list__mani {
@@ -2822,6 +2822,10 @@ body.ie ._ibg img {
             align-items: center;
   }
 
+  .menu-list__wrap {
+    padding: 0 15px;
+  }
+
   .contact__cont {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2896,8 +2900,8 @@ body.ie ._ibg img {
     padding: 20px 20px;
   }
 
-  .menu-list__name {
-    font-size: 14px;
+  .menu-list__wrap {
+    padding: 0px 0px 0px 0px;
   }
 }
 
